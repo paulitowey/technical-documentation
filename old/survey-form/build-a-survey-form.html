@@ -1,0 +1,96 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">
+    Thank you for taking the time to help us improve the platform
+  </p>
+  <p>
+    <body>
+      <form id="survey-form">
+        <fieldset class="top">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" required />
+          <label id="email-label" for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+          <label id="number-label" for="number">Age</label>
+          <label id="number-label" for="number" class="optional"
+            >(optional)</label
+          >
+          <input
+            id="number"
+            type="number"
+            min="10"
+            max="110"
+            placeholder="Age"
+          />
+          <label id="dropdown-label">How did you hear about us?</label>
+          <select id="dropdown">
+            <option value="" selected disabled required>
+              Select an option
+            </option>
+            <option value="friend">Friend</option>
+            <option value="other">Other</option>
+          </select>
+        </fieldset>
+        <fieldset class="radio">
+          <label id="interest-label"
+            >What made you interested in learning to code?</label
+          >
+          <label id="um-label"
+            ><input
+              id="um"
+              type="radio"
+              value="ummmm"
+              checked
+              name="interest"
+            />
+            Ummmmm</label
+          >
+          <label id="uh-label"
+            ><input id="uh" type="radio" value="uhhhh" name="interest" />
+            Uhhhhh</label
+          >
+          <label id="idk-label"
+            ><input id="idk" type="radio" value="idk" name="interest" />
+            Idk</label
+          >
+        </fieldset>
+        <fieldset class="checkbox">
+          <label id="who-label">Who do you know here?</label>
+          <label id="bob-label"
+            ><input id="bob" type="checkbox" value="bob" name="who" />
+            Bob</label
+          >
+          <label id="dylan-label"
+            ><input id="dylan" type="checkbox" value="dylan" name="who" />
+            Dylan</label
+          >
+          <label id="taylor-label"
+            ><input id="taylor" type="checkbox" value="taylor" name="who" />
+            Taylor</label
+          >
+        </fieldset>
+        <label id="sure-label"
+          >Are you sure you want to take a coding course? I don't think you're
+          ready for it...</label
+        >
+        <textarea id="sure"></textarea>
+        <input id="submit" type="submit" />
+      </form>
+    </body>
+  </p>
+</html>
+
+** end of undefined ** ** start of undefined ** label, input[id="submit"],
+textarea { display: block } ** end of undefined **

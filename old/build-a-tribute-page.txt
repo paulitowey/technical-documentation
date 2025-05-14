@@ -1,0 +1,149 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">JoJo Lineage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<main id="main">
+  <img class="icon" src="https://freepngimg.com/download/anime/118709-jojo-bizarre-pic-jojo-s-adventure.png">
+  <h1>
+    Joestar Lineage
+  </h1>
+  <p>
+    <em>A Bizarre Family Tree</em>
+  </p>
+  <div class="img-div" id="img-div">
+    <div class="image">
+      <img class="main-image" id="image" src="https://static.jojowiki.com/images/a/a0/latest/20230102204203/Parts_1-6_Joestar_Family_Tree_Quiz_Book.jpg">
+    </div>
+    <div class="img-caption" id="img-caption">
+      <p class="caption">The Joestar family tree details the complex lineage and notable members of the Joestar family, spanning generations and including both legitimate and illegitimate descendants.</p>
+    </div>
+  </div>
+  <div class="timeline and text">
+    <div class="timeline">
+
+    </div>
+    <div class="tribute-info" id="tribute-info">
+      <span class="tribute-header">Joestar Family Timeline:</span>
+      <div class="tribute-body">
+        <ul>
+          <li><p class="bullet"><span class="rich">Pre-1888:</span> George Joestar I establishes the Joestar family's wealth through his trading business. The Joestar family resides in a luxurious mansion in England.</p></li>
+          <li><p class="bullet"><span class="rich">1888:</span> Jonathan Joestar attempts to defeat the vampirised Dio Brando by burning down the Joestar mansion. The Joestar family begins relocating to various countries thereafter.</p></li>
+          <li><p class="bullet"><span class="rich">1888-1889:</span> Jonathan Joestar marries Erina Pendleton. George Joestar II is born posthumously after Jonathan's death in 1889.</p></li>
+          <li><p class="bullet"><span class="rich">Early 1900s:</span> George Joestar II marries Lisa Lisa (Elizabeth Joestar).</p></li>
+          <li><p class="bullet"><span class="rich">1920:</span> Joseph Joestar is born.</p></li>
+          <li><p class="bullet"><span class="rich">1942:</span> Holy Joestar (later Holy Kujo) is born to Joseph Joestar and Suzi Q.</p></li>
+          <li><p class="bullet"><span class="rich">1960s-1980s:</span> Joseph Joestar has affairs, resulting in several illegitimate children:
+          <ul>
+            <li>Josuke Higashikata (born 1983, to Tomoko Higashikata).</li>
+            <li>Giorno Giovanna (1985, with DIO using Jonathan's body).</li>
+            <li>Donatello Versus (1987).</li>
+            <li>Rikiel (1988).</li>
+            <li>Ungalo (1988).</li>
+          </ul>
+        </p></li>
+          <li><p class="bullet"><span class="rich">1970s-1990s:</span> Jotaro Kujo (born 1971) is born to Holy Kujo and Sadao Kujo. Jotaro Kujo marries an unnamed woman and has Jolyne Cujoh (born ~1992).</p></li>
+          <li><p class="bullet"><span class="rich">1990s:</span> Shizuka Joestar is adopted by Joseph Joestar (~1998).</p></li>
+          <li><p class="bullet"><span class="rich">Early 2000s:</span> The family spreads across Japan, Italy, and the United States due to marriages and relocations.</p></li>
+          <li><p class="bullet"><span class="rich">2011-2012:</span> Jotaro Kujo and Jolyne Cujoh die during events related to battling DIO's influence and legacy.</p></li>
+        </ul>
+      </div>
+      <div class="tribute-quote">
+        <p><em>“Gimme a break... (やれやれだぜ)”</p>
+        <p>—Jotaro's catchphrase</em></p>
+      </div>
+    </div>
+    <div class="tribute-link">
+        <p>To find out more, you should read the manga, watch the anime, or read the <a id="tribute-link" target="_blank" href="">Wikipedia page</a>.</p>
+    </div>
+</main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+main {
+  background-color: #AB49D7ff;
+  margin: 30px auto;
+  min-width: 300px;
+  max-width: 1000px;
+  min-height: 200px;
+  border-radius: 5px;
+  font: 16px Arial, sans-serif;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.icon {
+  display: block;
+  width: 20%;
+  margin: auto;
+  padding: 10px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.img-div {
+  padding: 20px;
+  background-color: #bbbbbb;
+  border-radius: 5px;
+}
+
+.tribute-info {
+  margin: 0 auto;
+  display: flex;  
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.tribute-body {
+  text-align: left;
+}
+
+.tribute-header {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 30px auto 15px;
+}
+
+.tribute-quote {
+  margin: 15px auto;
+  text-align: left;
+}
+
+.rich {
+  font-weight: 800;
+}
+
+.tribute-link {
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #00ff00;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+** end of undefined **
+

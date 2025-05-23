@@ -3,16 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Numbers in HTML</title>
+    <title>Produce in HTML</title>
   </head>
   <body>
-    <ul id="numbers"></ul>
+    <ul id="produce"></ul>
     <script>
-      const newArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-      let listNumbers = newArray
-        .map((singleNumber) => `<li>${singleNumber}</li>`)
+      const newArray = [
+        "apple",
+        "banana",
+        "avocado",
+        "cucumber",
+        "durian",
+        "eggplant",
+      ];
+      let listProduce = newArray
+        .filter((singleProduce) => singleProduce.startsWith("a"))
+        .map((singleProduce) => `<li>${singleProduce}</li>`)
         .join("");
-      document.getElementById("numbers").innerHTML = listNumbers;
+      document.getElementById("produce").innerHTML = listProduce;
+      // The above code filters the array for items that start with "a" and then maps them to a list item format.
+      // Finally, it joins the list items into a single string and sets the inner HTML of the "produce" element to that string.
+
+      let [produceILike] = newArray.splice(0, 3);
     </script>
   </body>
 </html>
